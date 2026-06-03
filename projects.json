@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-06-03T07:10:35.404Z",
-  "count": 6,
+  "generatedAt": "2026-06-03T09:13:30.264Z",
+  "count": 7,
   "projects": [
     {
       "slug": "2048 Game",
@@ -18,7 +18,7 @@
       "entry": "Projects/2048%20Game/index.html",
       "folder": "Projects/2048%20Game",
       "thumbnail": "Projects/2048%20Game/thumbnail.svg",
-      "addedAt": "2026-06-03T07:10:31.004Z"
+      "addedAt": "2026-06-03T09:13:25.808Z"
     },
     {
       "slug": "Daily Wheels",
@@ -36,7 +36,26 @@
       "entry": "Projects/Daily%20Wheels/index.html",
       "folder": "Projects/Daily%20Wheels",
       "thumbnail": "Projects/Daily%20Wheels/thumbnail.svg",
-      "addedAt": "2026-06-03T07:10:31.004Z"
+      "addedAt": "2026-06-03T09:13:25.809Z"
+    },
+    {
+      "slug": "Developer Portfolio Builder",
+      "title": "Developer Portfolio Builder",
+      "description": "An interactive tool to build, customize, preview, and download professional developer portfolios in real time.",
+      "author": {
+        "name": "Mistry Vishwa",
+        "github": "MistryVishwa"
+      },
+      "tags": [
+        "productivity",
+        "portfolio",
+        "vanilla-js",
+        "localstorage"
+      ],
+      "entry": "Projects/Developer%20Portfolio%20Builder/index.html",
+      "folder": "Projects/Developer%20Portfolio%20Builder",
+      "thumbnail": "Projects/Developer%20Portfolio%20Builder/thumbnail.svg",
+      "addedAt": "2026-06-03T09:13:25.809Z"
     },
     {
       "slug": "Markdown Editor",
@@ -56,7 +75,7 @@
       "entry": "Projects/Markdown%20Editor/index.html",
       "folder": "Projects/Markdown%20Editor",
       "thumbnail": "Projects/Markdown%20Editor/thumbnail.svg",
-      "addedAt": "2026-06-03T07:10:31.004Z"
+      "addedAt": "2026-06-03T09:13:25.810Z"
     },
     {
       "slug": "Music Player",
@@ -76,7 +95,7 @@
       "entry": "Projects/Music%20Player/index.html",
       "folder": "Projects/Music%20Player",
       "thumbnail": "Projects/Music%20Player/thumbnail.svg",
-      "addedAt": "2026-06-03T07:10:31.005Z"
+      "addedAt": "2026-06-03T09:13:25.810Z"
     },
     {
       "slug": "Notes App",
@@ -94,7 +113,7 @@
       "entry": "Projects/Notes%20App/index.html",
       "folder": "Projects/Notes%20App",
       "thumbnail": "Projects/Notes%20App/thumbnail.svg",
-      "addedAt": "2026-06-03T07:10:31.005Z"
+      "addedAt": "2026-06-03T09:13:25.811Z"
     },
     {
       "slug": "Weather Finder",
@@ -112,7 +131,7 @@
       "entry": "Projects/Weather%20Finder/index.html",
       "folder": "Projects/Weather%20Finder",
       "thumbnail": null,
-      "addedAt": "2026-06-03T07:10:31.006Z"
+      "addedAt": "2026-06-03T09:13:25.811Z"
     }
   ]
 }
