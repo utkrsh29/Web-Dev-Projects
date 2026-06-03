@@ -40,11 +40,10 @@ class MarkdownParser {
     // Images
     html = html.replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" style="max-width: 100%; border-radius: 8px; margin: 12px 0;">');
 
-    // Unordered lists
+    // Unordered lists — convert list items then wrap each consecutive group in its own <ul>
     html = html.replace(/^\* (.*?)$/gm, '<li>$1</li>');
     html = html.replace(/^\- (.*?)$/gm, '<li>$1</li>');
-    html = html.replace(/(<li>.*<\/li>)/s, '<ul>$1</ul>');
-    html = html.replace(/(<\/li>)\n(?!<li>)/g, '$1</ul>');
+    html = html.replace(/((<li>.*?<\/li>\n?)+)/g, '<ul>$1</ul>');
 
     // Ordered lists
     html = html.replace(/^\d+\. (.*?)$/gm, '<li>$1</li>');
